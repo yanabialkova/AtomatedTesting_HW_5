@@ -28,9 +28,7 @@ public class DataGenerator {
         Faker faker = new Faker(new Locale(locale));
         return "+7" + faker.number().digits(11);
     }
-
-
-
+    
     public static class Registration {
         private Registration() {}
 
